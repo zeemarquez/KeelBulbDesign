@@ -1,0 +1,76 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v2012                                 |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 79e353b84e-20201222 OPENFOAM=2012
+Arch   : "LSB;label=32;scalar=64"
+Exec   : C:\Program Files\ESI-OpenCFD\OpenFOAM\v2012\msys64\home\ofuser\OpenFOAM\OpenFOAM-v2012\platforms\win64MingwDPInt32Opt\bin\createPatch.exe -overwrite
+Date   : Apr 17 2022
+Time   : 21:28:50
+Host   : DESKTOP-OGTHBU9
+PID    : 12648
+I/O    : uncollated
+Case   : C:/Users/ZEEMAR~1/AppData/Local/Temp/case
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create polyMesh for time = 0
+
+Reading "system/createPatchDict"
+
+Adding new patch inlet as patch 5 from 
+{
+    type            patch;
+}
+
+Adding new patch outlet as patch 6 from 
+{
+    type            patch;
+}
+
+Adding new patch wall as patch 7 from 
+{
+    type            wall;
+}
+
+Adding new patch constraint as patch 8 from 
+{
+    type            symmetry;
+}
+
+Adding new patch defaultFaces as patch 9 from 
+{
+    type            patch;
+}
+
+
+Moving faces from patch patch_1_0 to patch 5
+Moving faces from patch patch_2_0 to patch 6
+Moving faces from patch patch_3_0 to patch 7
+Moving faces from patch patch_4_0 to patch 8
+Moving faces from patch patch_0_0 to patch 9
+
+Doing topology modification to order faces.
+
+Not synchronising points.
+
+Removing patches with no faces in them.
+
+Removing zero-sized patch patch_0_0 type wall at position 0
+Removing zero-sized patch patch_1_0 type wall at position 1
+Removing zero-sized patch patch_2_0 type wall at position 2
+Removing zero-sized patch patch_3_0 type wall at position 3
+Removing zero-sized patch patch_4_0 type wall at position 4
+Removing patches.
+Writing repatched mesh to 0
+
+End
+

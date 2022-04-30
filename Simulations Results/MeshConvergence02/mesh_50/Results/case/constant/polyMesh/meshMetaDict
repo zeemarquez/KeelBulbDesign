@@ -1,0 +1,63 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v2012                                 |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "constant/polyMesh";
+    object      meshMetaDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+surfaceFile     "CutKeelBulb_Geometry.fms";
+
+surfaceMeta
+{
+    nPoints         35009;
+    nFacets         70014;
+    nPatches        5;
+    nFeatureEdges   400;
+    patches
+    {
+        patch_0_0
+        {
+            type            empty;
+            nFacets         69745;
+        }
+        patch_1_0
+        {
+            type            empty;
+            nFacets         2;
+        }
+        patch_2_0
+        {
+            type            empty;
+            nFacets         2;
+        }
+        patch_3_0
+        {
+            type            empty;
+            nFacets         88;
+        }
+        patch_4_0
+        {
+            type            empty;
+            nFacets         177;
+        }
+    }
+    pointSubsets
+    {
+    }
+    facetSubsets
+    {
+    }
+    featureEdgeSubsets
+    {
+    }
+}
